@@ -1,0 +1,477 @@
+/*color palatte
+
+Cherry Red #BB1E27  rgb(187,30,39)
+Light Green #5DB869 rgb(93,184,105)
+Medium Green #35A543  rgb(53,165,67)
+goldenrod #D2933C  rgb(210,147,60)
+Dark Green #1B6834  rgb(27,104,52)
+Black #000000 rgb(0,0,0)
+Brick Red #731317 rgb(115,19,23)
+Nearly White #F4F4F4  rgb(244,244,244)
+Denim rgba(67,109,151, 0.8)
+Dark Denim  #1f4872   rgb(31, 72, 114)
+*/
+
+/*Fonts
+Chocolateboxdecorative, serif*/
+
+body, html, section, footer,  {
+	margin:0
+	padding:0
+}
+html {
+	background:#fff;
+}
+/*Body Styles*/
+body {
+	width:100%;
+	
+	margin:0 auto;
+	min-width:320px;
+
+}
+
+/* header styles*/
+header {
+	width:91%;
+	height:100px;
+	background:rgb(53,165,67); 
+	padding:1% 4% 2%;
+	font: 2em chocolateBoxDecorative, serif;
+	color:white;
+
+
+	margin:0 auto;
+	min-width:320px;
+	
+}
+.pageName {
+	font-size:2em;
+	font-family: Arial, Sans-serif;
+	color:#BB1E27;                                                       
+	text-align:center;
+	margin:0;
+	padding:0;	
+}
+
+
+
+header p {
+	color:rgb(31, 72, 114); 
+	position: fixed;
+	font: 1em Arial , serif; 
+	top: 0px;
+	right: 25%;
+}
+
+
+
+
+img {
+	padding:0;
+	margin:0;
+	min-height:300px;
+	max-width:850px;
+		}
+
+
+
+/*Nav styles*/
+nav {
+	width:95%;
+	background:rgb(187,30,39);
+	padding:2%;
+	margin:0 auto;
+	min-width:320px;
+}
+
+ ul .navList {
+
+	display:block;
+	background:white;
+	height:20px;
+	border-radius:8px;
+	padding:3%;
+
+	padding-bottom:7.5%;
+	font-size:2em;
+	margin:3% auto;
+	margin-right:7%;
+	text-align:center;
+	color:rgb(27,104,52);
+	box-shadow: 5px 5px 5px #333333;
+}
+
+
+
+.navList a {
+	color:rgb(67,109,151);
+	font-family:'Bad Script', cursive;
+	font-weight:bold;
+}
+
+
+
+
+	
+
+
+/*Section styles*/
+.main {
+	width:95%;
+	background:rgb(244,244,244);
+	padding:2%;
+	
+    position:relative;
+	margin:0 auto;
+	min-width:320px;
+ 	overflow: auto;
+
+}
+.biofields {
+	height:12em;
+}
+
+.colOne p {
+	font-size:1em;
+	color:black;
+	font-family:'Arial', sans-serif;
+
+}
+.colOne .host {
+	color:White;
+	font-size:2em;
+	font-family:Arial, Sans-serif;
+	font-family:Helvetica, ;
+}
+.colOne {
+	min-height:900px;
+
+
+	}
+
+.loginForm {
+	max-width:50%;
+}
+
+
+
+.main .identify {
+	font-size:3em;
+	font-family:'Bad Script', cursive;
+	color:rgb(67,109,151);
+}
+.colOne ul {
+	
+	height:20px;
+	background:none;
+	
+}
+.groupList  a {
+	font-size: 1.5em;
+    color:rgb(67,109,151);
+    width: 50%;
+    font-family: Arial, Sans-serif;	
+}
+
+label {
+	font-size: 2em;
+    color: white;
+    width: 50%;
+    text-align: right;
+    font-family: Arial, Sans-serif;
+}	
+
+	
+
+.event {
+
+	margin:0 auto;
+	width: 80%;
+	padding:10px;
+}
+
+
+
+.colTwo {
+	width:100%; 
+	padding:0;
+	margin-right:7.5%;	
+	}
+
+/*form Styles*/
+
+
+h3 {
+	font-size:2em;
+	color:rgb(67,109,151);
+}
+h4 {
+	font-size:1.5em;
+
+}
+form {
+	
+	width: 80%;
+	margin:10px auto;
+
+	padding: .8em;
+	border-radius: .5em;
+	background: rgba(67,109,151, 0.8);
+	
+}
+
+
+form div + div {
+	margin-top: 1em;
+}
+
+
+.username {
+	margin-left: 50%;
+}
+.password {
+	margin-left: 50%;
+}
+
+
+.create {
+	
+	color:white;
+	width: 50%;
+	text-align: right;
+	font-family: Arial, Sans-serif;
+	font-weight:normal;
+}
+
+	
+
+input, textarea {
+	font: 1em sans-serif;
+	width: 100%;
+	height:3em;
+	box-sizing: border-box;
+	border: 1px solid #999;
+	margin:4px auto;
+	border-radius:1em;
+	padding:10px;
+}
+
+input:focus, textarea:focus {
+	border-color: #000;
+}
+
+
+.button {
+	padding-left: 90px;
+}
+
+.event select {
+	width:100%;
+	height: 3em;
+	padding:0 2%;
+	margin:6px auto;
+	font: 1em Arial;
+	border-radius:1em;
+}
+
+
+
+select {
+	width:100%;
+	height: 3em;
+	padding:0 2%;
+	margin:6px auto;
+	font: 1em Arial;
+	border-radius:1em;
+}
+
+
+/*Footer Styles*/
+footer {
+	width:95%;
+	background:rgb(53,165,67);
+	clear:both;
+	padding:1% 2% 2%;
+	margin:10px auto;
+	min-width:320px;
+	border-top:10px solid #BB1E27;	
+}
+
+.countdown {
+	color:white; 
+	text-align:center;
+	border-left:2px inset #555;
+	border-bottom:3px inset #111;
+	border-radius:300px;
+	padding:20px;
+	font-size:2em;
+	background-color:#5DB869;
+	margin:0 auto 10px;
+}
+
+
+input[type=submit] {
+    width:100% ;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:20px;
+    box-shadow: 8px 8px 5px #888888;
+    height:3em;
+
+}
+
+input[type=text] {
+    width:100% ;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:20px;
+    box-shadow: 8px 8px 5px #888888;
+    }
+
+input[type=password] {
+    width:100% ;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:20px;
+    box-shadow: 8px 8px 5px #888888;
+    }
+
+input[type=checkbox] {
+	display:inline;
+}
+
+.wishes {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: 15px;
+  *overflow: hidden;
+}
+span.wishes2 {
+  display: block;
+  padding-left: 40px;
+  text-indent: -15px;
+}
+footer p {
+	color:white;
+	font-size:1.5em;
+}
+
+
+
+
+
+	
+
+
+/*mediaQuery styles*/
+/* This style will show if there is no media query to target a specific size or range. */
+
+
+/*Small desktop / Portrait tablet – 1024px and bigger */
+@media (min-width: 830px) {
+
+header {
+	width:80%;
+	padding:1% 2% 2%;
+}
+
+nav {
+	width:80%;
+	background:rgb(187,30,39);
+	padding:2%;
+	margin:0 auto;
+	min-width:320px;
+
+}
+
+ul .navList {
+
+	display:inline-block;
+	background:white;
+	border-radius:8px;
+	padding:1%;
+	margin:0 1%;
+	color:rgba(27,104,52);
+	box-shadow: 5px 5px 5px #1f4872;
+}
+
+
+.navList a {
+	color:rgb(67,109,151);
+	font-family:'Bad Script', cursive;
+	font-weight:bold;
+	font-size:.5em;
+
+}
+
+
+.main {
+	width:80%;
+	background:rgb(244,244,244);
+	position:relative;
+	margin:0 auto;
+	min-width:320px;
+}
+.main .identify{
+	font-size:2em;
+}
+.colOne {
+	width:50%;
+	display:block;
+	padding:2%;
+	margin: 0 auto;
+	margin-right:10%;
+	min-width:320px;
+	float:left;
+}
+.colTwo {
+	width:20%;
+	display:block;
+	position:absolute;
+	top:0;
+	right:-7.5%;
+	background:rgb(93,184,105);
+	padding:2%;	
+	padding-right:4%;
+
+}
+.pageName {
+	font-size:2em;
+	font-family: Arial, Sans-serif;
+	color:white;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+.event {
+	margin:1.5%;
+	width: 100%;
+	padding:10px;
+}
+
+
+.submit {
+	margin-left: 60%;
+	border-radius:1em;
+	margin-top:9px;
+	width:20%;
+}
+	
+footer {
+	width:80%;
+	clear:both;
+}
+
+
+
+
+
